@@ -379,7 +379,7 @@ h3 {
 
 .feature-panel {
   background:
-    linear-gradient(180deg, rgba(255, 171, 64, 0.28), rgba(181, 101, 29, 0.3)),
+    linear-gradient(180deg, rgba(224, 250, 245, 0.12), rgba(255, 171, 64, 0.18)),
     #2a211b;
   border: 1px solid rgba(255, 232, 214, 0.18);
   border-radius: 28px;
@@ -387,13 +387,13 @@ h3 {
   justify-content: center;
   min-height: 580px;
   overflow: hidden;
-  padding: 30px 20px 0;
+  padding: 36px 22px;
 }
 
 .feature-panel img {
-  height: 560px;
+  height: 500px;
   object-fit: contain;
-  object-position: bottom;
+  object-position: center;
   width: auto;
 }
 
@@ -608,7 +608,7 @@ h3 {
   }
 
   .feature-panel img {
-    height: 440px;
+    height: 400px;
   }
 }
 

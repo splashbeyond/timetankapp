@@ -172,8 +172,8 @@ export default function Home() {
           </div>
           <div className="feature-panel">
             <Image
-              src="/brand/finn-suffering.png"
-              alt="Finn after too much screen time"
+              src="/brand/finn-bowl.png"
+              alt="Finn swimming in his TimeTank fishbowl"
               width={1024}
               height={1536}
             />
