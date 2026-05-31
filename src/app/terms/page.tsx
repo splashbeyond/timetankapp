@@ -116,7 +116,7 @@ export default function TermsPage() {
           Ephesian28 LLC
           <br />
           Support:{" "}
-          <a href="mailto:timetankap@yahoo.com">timetankap@yahoo.com</a>
+          <a href="mailto:timetankapp@yahoo.com">timetankapp@yahoo.com</a>
         </p>
       </article>
     </main>

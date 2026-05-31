@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -77,12 +78,12 @@ export default function Home() {
             </p>
             <div className="cta-row">
               <a className="app-store-badge" href={appStoreHref}>
-                <Image
+                {/* Apple's official badge is an SVG, so a plain image avoids framework resizing warnings. */}
+                <img
                   src="/brand/app-store-badge.svg"
                   alt="Download on the App Store"
                   width={180}
                   height={60}
-                  priority
                 />
               </a>
               <a className="secondary-cta" href="#how-it-works">
@@ -253,7 +254,7 @@ export default function Home() {
           <p className="eyebrow">Download TimeTank</p>
           <h2>Put the phone down. See what the water looks like tomorrow.</h2>
           <a className="app-store-badge" href={appStoreHref}>
-            <Image
+            <img
               src="/brand/app-store-badge.svg"
               alt="Download on the App Store"
               width={180}
@@ -271,7 +272,7 @@ export default function Home() {
         <div className="footer-links">
           <Link href="/privacy">Privacy</Link>
           <Link href="/terms">Terms</Link>
-          <a href="mailto:timetankap@yahoo.com">Support</a>
+          <a href="mailto:timetankapp@yahoo.com">Support</a>
         </div>
         <p>
           <Sparkles size={15} aria-hidden="true" />

@@ -87,7 +87,7 @@ export default function PrivacyPage() {
           You can stop using TimeTank at any time. You may revoke Screen Time
           permissions through iOS settings, delete local app data by deleting
           the app, and contact us with privacy questions at{" "}
-          <a href="mailto:timetankap@yahoo.com">timetankap@yahoo.com</a>.
+          <a href="mailto:timetankapp@yahoo.com">timetankapp@yahoo.com</a>.
         </p>
 
         <h2>Changes To This Policy</h2>
@@ -102,7 +102,7 @@ export default function PrivacyPage() {
           Ephesian28 LLC
           <br />
           Support:{" "}
-          <a href="mailto:timetankap@yahoo.com">timetankap@yahoo.com</a>
+          <a href="mailto:timetankapp@yahoo.com">timetankapp@yahoo.com</a>
         </p>
       </article>
     </main>

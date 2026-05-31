@@ -204,9 +204,7 @@ h3 {
 }
 
 .app-store-badge img {
-  height: auto;
   transition: transform 180ms ease;
-  width: 180px;
 }
 
 .app-store-badge:hover img,
