@@ -100,32 +100,14 @@ export default function Home() {
 
           <div className="phone-stage" aria-label="TimeTank app preview">
             <div className="phone-frame">
-              <div className="phone-top">
-                <span>9:41</span>
-                <span>TimeTank</span>
-              </div>
-              <div className="tank-card">
-                <div className="status-pill">
-                  <span className="pulse-dot" />
-                  Clean water
-                </div>
-                <Image
-                  className="bowl-image"
-                  src="/brand/finn-bowl.png"
-                  alt="Finn swimming in a clean TimeTank fishbowl"
-                  width={1024}
-                  height={1536}
-                  priority
-                />
-              </div>
-              <div className="budget-card">
-                <p>Today&apos;s budget</p>
-                <strong>45 min</strong>
-                <div className="progress-track">
-                  <span />
-                </div>
-                <small>23 min remaining</small>
-              </div>
+              <Image
+                className="app-screenshot"
+                src="/brand/time-tank-app-screenshot.png"
+                alt="TimeTank iPhone app showing Finn in a clean tank and a 45 minute budget"
+                width={1206}
+                height={2622}
+                priority
+              />
             </div>
           </div>
         </div>
